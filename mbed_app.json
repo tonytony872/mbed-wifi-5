@@ -1,0 +1,17 @@
+{
+    "config": {
+        "wifi-ssid": {
+            "help": "WiFi SSID",
+            "value": "\"esys305\""
+        },
+        "wifi-password": {
+            "help": "WiFi Password",
+            "value": "\"305305abcd\""
+        }
+    },
+    "target_overrides": {
+        "*": {
+            "platform.stdio-convert-newlines": true
+        }
+    }
+}
